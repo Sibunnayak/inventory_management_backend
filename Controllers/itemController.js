@@ -1,4 +1,4 @@
-const Item = require("../models/Item");
+const Item = require("../Models/item");
 const QRCode = require("qrcode");
 const { v4: uuidv4 } = require("uuid");
 
