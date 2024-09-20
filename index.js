@@ -12,7 +12,7 @@ app.use(express.urlencoded({ limit: '50mb', extended: true }));
 // Allow specific origins
 app.use(cors({
     origin: [
-        'http://localhost:3000', 
+        'http://localhost:5173', 
         'https://inventory-management-frontend-cysl.onrender.com'
     ]
 }));
